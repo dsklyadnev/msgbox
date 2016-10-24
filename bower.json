@@ -1,0 +1,20 @@
+{
+  "name": "msgbox",
+  "homepage": "https://github.com/sklyadnev/msgbox",
+  "authors": [
+    "Dmitry Sklyadnev <bluesbreaker@yandex.ru>"
+  ],
+  "description": "AngularJS message box",
+  "main": "msgbox.js",
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
