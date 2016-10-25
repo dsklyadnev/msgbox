@@ -1,0 +1,17 @@
+<div class="ui modal">
+  <div class="header">{{ header }}</div>
+  <div class="content" ng-transclude></div>
+  <div class="actions">
+    <div class="ui button" ng-repeat="action in actions" ng-class="[action.btnClass, (action.icon === undefined ? '' : 'labeled icon')]">
+        {{ action.text }}
+        <i class="icon" ng-if="action.icon !== undefined" ng-class="action.icon"></i>
+    </div>
+    <div class="ui black deny button">
+      Nope
+    </div>
+    <div class="ui positive right labeled icon button">
+      Yep, that's me
+      <i class="checkmark icon"></i>
+    </div>
+  </div>
+</div>
